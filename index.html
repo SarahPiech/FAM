@@ -3,98 +3,25 @@
 <head>
   <meta charset="UTF-8">
   <title>My Site</title>
-
-  <style>
-    body {
-      margin: 8px;
-      padding: 0;
-      background: white;
-      color: black;
-      font-family: Verdana, Geneva, sans-serif;
-      font-size: 13px;
-    }
-
-    a {
-      color: #0000ee;
-      text-decoration: underline;
-    }
-
-    a:visited {
-      color: #551a8b;
-    }
-
-    a:hover {
-      color: red;
-    }
-
-    .layout {
-      display: flex;
-      align-items: flex-start;
-    }
-
-    .menu {
-      width: 120px;
-      padding-top: 10px;
-    }
-
-    .menu a {
-      display: block;
-      margin-bottom: 12px;
-    }
-
-    .content {
-      width: 600px;
-      padding-left: 20px;
-    }
-
-    /* 頁面最上方標題 */
-    h1 {
-      color: #aaa;
-      font-size: 18px;
-      font-weight: normal;
-      margin: 10px 0 20px 0;
-    }
-
-    ul {
-      margin-top: 10px;
-      padding-left: 25px;
-    }
-
-    li {
-      margin-bottom: 8px;
-    }
-  </style>
+  <link rel="stylesheet" href="FAM.css">
 </head>
-
 <body>
+  <div class="container">
 
-  <div class="layout">
-
-    <!-- 左側選單 -->
-    <div class="menu">
-      <a href="index.html">Home</a>
-      <a href="articles.html">Articles</a>
-      <a href="about.html">About</a>
-    </div>
-
-    <!-- 右側內容 -->
-    <div class="content">
-      <h1>Articles</h1>
-
-		<img src="IMG_5853.jpeg" alt="5832">
-		
+    <nav class="sidebar">
       <ul>
-        <li>
-          <a href="article1.html">第一篇文章</a>
-        </li>
-
-        <li>
-          <a href="article2.html">第二篇文章</a>
-        </li>
+        <li><a href="#" data-info="home">Home</a></li>
+        <li><a href="#" data-info="articles">Articles</a></li>
+        <li><a href="#" data-info="about">About</a></li>
       </ul>
+    </nav>
+
+    <div class="right">
+      <div class="righttop">Home</div>
+      <div class="rightcontent" id="rightcontent"></div>
     </div>
 
   </div>
-
+  <script src="FAM.js" defer></script>
 </body>
 </html>
