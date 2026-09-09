@@ -9,6 +9,7 @@ const infoMap = {
   `,
   zimmer_0919: `<h2>Zimmer_0919</h2><p>This is Zimmer_0919.</p>`,
   kob_2703: `<h2>Kob_2703</h2><p>This is Kob_2703.</p>`,
+  MeiMei回診_270127_Wed.: `<h2>Kob_2703</h2><p>This is MeiMei回診_270127_Wed.</p>`
   "jf-class": `
     <div class="home-outline">
       <ul>
