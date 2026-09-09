@@ -8,8 +8,9 @@ const infoMap = {
     </div>
   `,
   zimmer_0919: `<h2>Zimmer_0919</h2><p>This is Zimmer_0919.</p>`,
-  kob_2703: `<h2>Kob_2703</h2><p>This is Kob_2703.</p>`,
-  MeiMei回診_270127_Wed.: `<h2>Kob_2703</h2><p>This is MeiMei回診_270127_Wed.</p>`,
+  こうべ_2703: `<h2>Kob_2703</h2><p>This is Kob_2703.</p>`,
+  MeiMei回診_270127_Wed: `<h2>Kob_2703</h2><p>This is MeiMei回診_270127_Wed.</p>`,
+  
   "jf-class": `
     <div class="home-outline">
       <ul>
@@ -107,7 +108,7 @@ const infoMap = {
           <th>社團<br>12:50~14:20</th>
           <td></td>
           <td></td>
-          <td class="subject-gp">羽球</td>
+          <td class="subject-gp">羽球<br>10/07-12/30</td>
           <td></td>
           <td></td>
         </tr>
@@ -204,7 +205,7 @@ const infoMap = {
           <th>社團<br>12:50~14:20</th>
           <td></td>
           <td></td>
-           <td class="subject-gp">科學</td>
+           <td class="subject-gp">科學<br>10/07-12/30</td>
           <td></td>
           <td></td>
         </tr>
