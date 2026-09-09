@@ -358,7 +358,7 @@ const infoMap = {
   `,
   twn_115: `<h2>TWN_115</h2><img src="IMG_5855.png" alt="IMG_5855">`,
   sch_115_01: `<h2>SCH_115_01</h2><img src="IMG_5864.jpeg" alt="IMG_5864">`,
-  sch_115_02: `<h2>SCH_115_02</h2><img src="IMG_5853.jpeg" alt="IMG_5853.">`
+  sch_115_02: `<h2>SCH_115_02</h2><img src="IMG_5853.jpeg" alt="IMG_5853">`
 };
 
 const visitedItems = new Set();
