@@ -17,7 +17,102 @@ const infoMap = {
       </ul>
     </div>
   `,
-  jf_meimei: `<h2>JF_MeiMei</h2><p>This is JF_MeiMei.</p>`,
+  jf_meimei: `<h2>JF_MeiMei</h2>
+   <table class="schedule-table">
+      <colgroup>
+        <col class="col-period">
+        <col class="col-day" span="5">
+      </colgroup>
+      <thead>
+        <tr>
+          <th>節次\\星期</th>
+          <th>Monday</th>
+          <th>Tuesday</th>
+          <th>Wednesday</th>
+          <th>Thursday</th>
+          <th>Friday</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr class="break-row">
+          <td colspan="6">Morning<br>08:00~8:35</td>
+        </tr>
+        <tr>
+          <th>第一節<br>08:00~8:35</th>
+          <td>國語</td>
+          <td>國語</td>
+          <td>自然</td>
+          <td>國語</td>
+          <td>生活</td>
+        </tr>
+        <tr>
+          <th>第二節<br>09:30~10:10</th>
+          <td>數學</td>
+          <td>數學</td>
+          <td>自然</td>
+          <td>數學</td>
+          <td>國際</td>
+        </tr>
+        <tr class="break-row">
+          <td colspan="6">大下課<br>10:10~10:30</td>
+        </tr>
+        <tr>
+          <th>第三節<br>10:30~11:10</th>
+          <td>本土</td>
+          <td class="subject-pe">體育</td>
+          <td>國語</td>
+          <td class="subject-pe">體育</td>
+          <td>國語</td>
+        </tr>
+        <tr>
+          <th>第四節<br>11:20~12:00</th>
+          <td>閱讀</td>
+          <td>數位</td>
+          <td>數學</td>
+          <td>音樂</td>
+          <td>社會</td>
+        </tr>
+        <tr class="break-row">
+          <td colspan="6">午休<br>12:40~13:10</td>
+        </tr>
+        <tr>
+          <th>第五節<br>13:20~14:00</th>
+          <td>社會</td>
+          <td>綜合</td>
+          <td></td>
+          <td>健康</td>
+          <td></td>
+        </tr>
+        <tr>
+          <th>第六節<br>14:10~14:50</th>
+          <td>綜合</td>
+          <td>社會</td>
+          <td></td>
+          <td>美勞</td>
+          <td></td>
+        </tr>
+        <tr>
+          <th>第七節<br>15:00~15:40</th>
+          <td>自然</td>
+          <td>英語</td>
+          <td></td>
+          <td>美勞</td>
+          <td></td>
+        </tr>
+		  <tr class="break-row">
+          <td colspan="6">放學<br>12:40 or 15:40</td>
+        </tr>
+        <tr>
+          <th>社團<br>12:50~14:20</th>
+          <td></td>
+          <td></td>
+          <td class="subject-gp">羽球</td>
+          <td></td>
+          <td></td>
+        </tr>
+      </tbody>
+    </table>
+  `,
   jf_jenjen: `
     <h2>JF_JenJen</h2>
     <table class="schedule-table">
@@ -108,7 +203,7 @@ const infoMap = {
           <th>社團<br>12:50~14:20</th>
           <td></td>
           <td></td>
-          <td>科學</td>
+           <td class="subject-gp">科學</td>
           <td></td>
           <td></td>
         </tr>
@@ -148,7 +243,7 @@ const infoMap = {
           <th>unknow</th>
           <td></td>
           <td></td>
-          <td></td>
+          <td>16:00-17:00 口語表達進階</td>
           <td></td>
           <td></td>
         </tr>
@@ -260,9 +355,9 @@ const infoMap = {
       </ul>
     </div>
   `,
-  twn_115: `<h2>TWN_115</h2><p>This is TWN_115.</p>`,
-  sch_115_01: `<h2>SCH_115_01</h2><p>This is SCH_115_01.</p>`,
-  sch_115_02: `<h2>SCH_115_02</h2><img src="IMG_5853.jpeg" alt="IMG_5853">`
+  twn_115: `<h2>TWN_115</h2><img src="IMG_5855.jpeg" alt="IMG_5855">`,
+  sch_115_01: `<h2>SCH_115_01</h2><img src="IMG_5864.jpeg" alt="IMG_5864">`,
+  sch_115_02: `<h2>SCH_115_02</h2><img src="IMG_8532.jpeg" alt="IMG_5832">`
 };
 
 const visitedItems = new Set();
