@@ -3,13 +3,14 @@ const infoMap = {
     <div class="home-outline">
       <ul>
         <li><span class="content-item" data-content="zimmer_0919">Zimmer_0919</span></li>
-        <li><span class="content-item" data-content="kob_2703">Kob_2703</span></li>
+        <li><span class="content-item" data-content="kob_2703">こうべ_2703</span></li>
+		<li><span class="content-item" data-content="MeiMei_270127">MeiMei_270127</span></li>
       </ul>
     </div>
   `,
   zimmer_0919: `<h2>Zimmer_0919</h2><p>This is Zimmer_0919.</p>`,
-  こうべ_2703: `<h2>Kob_2703</h2><p>This is Kob_2703.</p>`,
-  MeiMei回診_270127_Wed: `<h2>Kob_2703</h2><p>This is MeiMei回診_270127_Wed.</p>`,
+  kob_2703: `<h2>Kob_2703</h2><p>This is Kob_2703.</p>`,
+  MeiMei_270127: `<h2>MeiMei_270127</h2><p>This is MeiMei回診_270127_Wed.</p>`,
   
   "jf-class": `
     <div class="home-outline">
