@@ -1,29 +1,166 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>FAM</title>
-  <link rel="stylesheet" href="FAM.css">
-</head>
-<body>
-  <div class="container">
+body {
+  margin: 8px;
+  padding: 0;
+  background: white;
+  color: black;
+  font-family: Verdana, Geneva, sans-serif;
+  font-size: 13px;
+}
 
-    <nav class="sidebar">
-      <ul>
-        <li><a href="#" data-info="upcoming">Upcoming</a></li>
-        <li><a href="#" data-info="jf-class">JF Class</a></li>
-        <li><a href="#" data-info="ifei-class">IFei Class</a></li>
-        <li><a href="#" data-info="calendar">Calendar</a></li>
-      </ul>
-    </nav>
+a {
+  color: #0000ee;
+  text-decoration: underline;
+}
 
-    <div class="right">
-      <div class="righttop">R o b e r t &nbsp;&nbsp; B r u c e  &nbsp;&nbsp; B a n n e r</div>
-      <div class="rightcontent" id="rightcontent"></div>
-    </div>
+a:visited {
+  color: #551a8b;
+}
 
-  </div>
-  <script src="FAM.js" defer></script>
-</body>
-</html>
+a:hover {
+  color: red;
+}
+
+.container {
+  display: flex;
+  align-items: flex-start;
+}
+
+.sidebar {
+  width: 140px;
+  padding-top: 10px;
+  flex-shrink: 0;
+}
+
+.sidebar ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.sidebar > ul > li {
+  margin-bottom: 12px;
+}
+
+.sidebar a {
+  display: block;
+  margin-bottom: 8px;
+  font-size: 20px;
+}
+
+.sub-menu {
+  display: none;
+  padding-left: 14px;
+}
+
+.sub-menu.show {
+  display: block;
+}
+
+.toggle-arrow {
+  display: inline-block;
+  font-size: 10px;
+  margin-left: 4px;
+}
+
+.toggle-arrow.rotated {
+  transform: rotate(90deg);
+}
+
+.right {
+  width: 600px;
+  padding-left: 20px;
+  flex-shrink: 0;
+}
+
+.righttop {
+  color: #aaa;
+  font-size: 18px;
+  margin: 10px 0 20px 0;
+}
+
+.rightcontent img {
+  max-width: 600px;
+  width: auto;
+  height: auto;
+  display: block;
+  margin-bottom: 16px;
+}
+
+.home-outline ul {
+  margin-top: 10px;
+  padding-left: 25px;
+  list-style-type: square;
+}
+
+.home-outline ul li::marker {
+  color: #666;
+}
+
+.home-outline li {
+  margin-bottom: 8px;
+}
+
+.content-item {
+  cursor: pointer;
+  color: #0000ee;
+  text-decoration: underline;
+  font-size: 20px;
+}
+
+.content-item:hover {
+  color: red;
+}
+
+.content-item.visited {
+  color: #666;
+}
+
+.schedule-table {
+  border-collapse: collapse;
+  width: 100%;
+  table-layout: fixed;
+  font-size: 12px;
+  margin-top: 8px;
+}
+
+.schedule-table col.col-period {
+  width: 96px;
+}
+
+.schedule-table col.col-day {
+  width: auto;
+}
+
+.schedule-table th,
+.schedule-table td {
+  border: 1px solid #999;
+  padding: 6px 8px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.schedule-table thead th {
+  background: #eee;
+  font-weight: bold;
+}
+
+.schedule-table tbody th {
+  background: #f6f6f6;
+  text-align: center;
+  white-space: nowrap;
+  font-weight: normal;
+}
+
+.schedule-table .break-row td {
+  background: #f0f0f0;
+  text-align: center;
+  font-weight: bold;
+}
+
+.schedule-table td.subject-pe {
+  background: #cde8ff;
+}
+
+.schedule-table td.subject-gp {
+  background: #cdefd9;
+}
