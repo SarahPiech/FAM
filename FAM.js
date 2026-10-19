@@ -246,7 +246,7 @@ const infoMap = {
           <th>unknow</th>
           <td></td>
           <td></td>
-          <td>16:00-17:00 口語表達進階</td>
+          <td>16:00-17:00 口語表達進階 09/16*8</td>
           <td></td>
           <td></td>
         </tr>
@@ -352,13 +352,15 @@ const infoMap = {
   calendar: `
     <div class="home-outline">
       <ul>
-        <li><span class="content-item" data-content="twn_115">TWN_115</span></li>
+        <li><span class="content-item" data-content="tw_115">TW_115</span></li>
+        <li><span class="content-item" data-content="tw_116">TW_116</span></li>
         <li><span class="content-item" data-content="sch_115_01">SCH_115_01</span></li>
         <li><span class="content-item" data-content="sch_115_02">SCH_115_02</span></li>
       </ul>
     </div>
   `,
-  twn_115: `<h2>TWN_115</h2><img src="IMG_5855.png" alt="IMG_5855">`,
+  tw_115: `<h2>TW_115</h2><img src="IMG_6154.png" alt="IMG_6154">`,
+  tw_116: `<h2>TW_116</h2><img src="IMG_5855.png" alt="IMG_5855">`,
   sch_115_01: `<h2>SCH_115_01</h2><img src="IMG_5864.jpeg" alt="IMG_5864">`,
   sch_115_02: `<h2>SCH_115_02</h2><img src="IMG_5853.jpeg" alt="IMG_5853">`
 };
