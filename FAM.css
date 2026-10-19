@@ -68,6 +68,7 @@ a:hover {
 .right {
   width: 600px;
   padding-left: 20px;
+  flex-shrink: 0;
 }
 
 .righttop {
@@ -160,18 +161,6 @@ a:hover {
 
 .schedule-table td.subject-gp {
   background: #cdefd9;
-}
-
-@media (max-width: 720px) {
-  .right {
-    width: auto;
-    flex: 1;
-    min-width: 0;
-  }
-
-  .rightcontent img {
-    max-width: 100%;
-  }
 }
 
 @media (pointer: coarse) {
