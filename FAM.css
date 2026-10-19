@@ -38,12 +38,14 @@ a:hover {
 }
 
 .sidebar > ul > li {
-  margin-bottom: 12px;
+  margin-bottom: 18px;
 }
 
 .sidebar a {
   display: block;
   margin-bottom: 8px;
+  font-size: 20px;
+  line-height: 1.8;
 }
 
 .sub-menu {
@@ -95,13 +97,15 @@ a:hover {
 }
 
 .home-outline li {
-  margin-bottom: 8px;
+  margin-bottom: 16px;
+  line-height: 1.8;
 }
 
 .content-item {
   cursor: pointer;
   color: #0000ee;
   text-decoration: underline;
+  font-size: 20px;
 }
 
 .content-item:hover {
